@@ -1,5 +1,8 @@
-## My resume
+# My resume
 A modern resume for a modern web developer.
+
+## Preview
+[![Preview Image](preview.jpg)]
 
 ## Roadmap
 - [ ] Turn this into a vuejs project
