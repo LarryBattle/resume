@@ -2,7 +2,7 @@
 A modern resume for a modern web developer.
 
 ## Preview
-![Preview Image](preview.jpg)
+[![Preview Image](preview.jpg)](https://larrybattle.github.io/resume/)
 
 ## Roadmap
 - [ ] Turn this into a vuejs project
