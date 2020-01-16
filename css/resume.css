@@ -160,7 +160,7 @@ a:hover, a:focus, a:active {
 	max-height: 100vh;
 	overflow-y: scroll;
 	border: 1px solid gray;
-	scroll-snap-type: y mandatory;
+	scroll-snap-type: y proximity;
 }
 #scroll-it section {
   border-top: 1px solid white;
