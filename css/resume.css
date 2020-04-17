@@ -154,18 +154,3 @@ a:hover, a:focus, a:active {
 .img-profile:hover {
   transform: rotate(5deg) scale(1) skew(1deg) translate(10px) scale(1.2);
 }
-
-#scroll-it{
-  flex-basis: 50%;
-	max-height: 100vh;
-	overflow-y: scroll;
-	border: 1px solid gray;
-	scroll-snap-type: y proximity;
-}
-#scroll-it section {
-  border-top: 1px solid white;
-	scroll-snap-align: start;
-	display: flex;
-	flex-flow: column;
-	justify-content: center;
-}
