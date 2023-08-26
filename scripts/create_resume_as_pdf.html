@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>Marked in the browser</title>
+</head>
+<body>
+<div id="content"></div>
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<script>
+var resume2Page = `
+ <span style="font-family: Helvetica; font-size: 2em; font-weight: 800;"> Larry</span> <span style="font-family: Helvetica; font-size: 2em;">Battle </span>
+- Dallas, TX | www.larrybattle.me | [github.com/LarryBattle](github.com/LarryBattle)
+- Senior Software Engineer | Full Stack Developer | Leader & Mentor
+- Objective: Pursuing a stable tech leadership opportunity, emphasizing AWS cloud solutions and valuing mentorship and work-life harmony.
+
+**Tech Stack:**
+- **Frontend**: HTML5, JS, TypeScript, Bootstrap, jQuery, Angular 2+, Vuejs, ReactJS
+- **Backend**: Groovy, Grails, Java, Spring Boot, Nodejs, Express
+- **Database**: MySql, Redis, Elastic, MongoDB, RabbitMQ
+- **Others**: K8s, Docker, Jenkins, AWS
+
+**Experience:**
+
+<img src="https://www.chase.com/favicon.ico" width="20" height="20"> **JPMorgan Chase** - Senior Infrastructure Developer (Aug 2020 - Present)
+- Spearheaded a team of 3-5 developers, ensuring timely feature delivery in a public and private cloud environment.
+- Fully involved in the SDLC process while improving the team efficiency through automation and updated documentation.
+- Streamlined CI/CD processes and cutting down vulnerabilities.
+- Designed scripts, such as a bookmark generator, promoting developer productivity.
+
+<img src="https://www.spireon.com/wp-content/uploads/Spireon_Icon_512px-300x300.png" width="20" height="20"> **Spireon Inc** - Senior Full-Stack Developer (July 2014 - July 2020)
+- Led AWS IoT integration, rejuvenating production IoT devices.
+- Revamped a Grails plugin into a scalable Java Spring Boot microservice.
+- Innovated an Angular 4 tool, boosting sales by over 10%.
+- Designed a Vuejs 2 Webhook editor, reducing team size by 75% for updates.
+- Contributed to agile teams, focusing on SPAs.
+- Introduced front-end unit testing, enhancing code coverage.
+
+<img src="https://www.bcbs.com/themes/custom/bcbs/img/icons/favicon-32x32.png" width="20" height="20"> **Blue Cross Blue Shield** - Web App Developer Analyst (April 2012 - June 2014)
+- Augmented an enterprise system, streamlining processes for users.
+- Crafted a multifunctional file manager using JSP and jQuery.
+
+**Education & Certifications:**
+- BS Computer Science and Engineer from University of Texas at Arlington - 2011
+- Certs: Machine Learning - Coursera / AWS Cloud Practitioner / MongoDB Certified Developer
+
+**Awards & Interests:**
+- Multiple wins in Hackathon events.
+- DigitalOcean Hacktoberfest Achiever (3 years).
+- Passionate about rock climbing, running, tennis/pickleball.
+- Language proficiency: Japanese, Chinese, English.
+`;
+
+document.getElementById('content').innerHTML = marked.parse(resume2Page);
+</script>
+</body>
+</html>
